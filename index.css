@@ -1,26 +1,26 @@
 body {
     margin: 0;
     position: relative;
-    width: 480px;
-    height: 1161px;
+    min-width: 480px;
     background: #FFFFFF;
     font-family: 'Smythe', cursive;
     color: #000000;
     user-select: none;
+    border: 1px solid red
 }
 
 header{
     background-image: url("images/food-order.webp");
     background-size: cover;
     color: white;
-    width: 480px;
     height: 167px;
     margin: 0;
 }
 
 main{
-    width: 508px;
-    margin: 0 45px;
+    /* width: 480px; */
+    /* margin: 0 45px; */
+    padding: 30px;
 }
 
 .title-container{
@@ -96,7 +96,7 @@ p{
 
 .complete-order-btn{
     color: white;
-    width: 508px;
+    width: 100%;
     padding: 18px 175px 18px 194px;
     align-items: center;
     background: #16DB99;
