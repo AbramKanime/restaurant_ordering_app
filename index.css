@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    position: relative;
+    width: 480px;
+    height: 1161px;
+    background: #FFFFFF;
+    font-family: 'Smythe', cursive;
+    color: #000000;
+    user-select: none;
+}
+
+header{
+    background-image: url("images/food-order.webp");
+    background-size: cover;
+    color: white;
+    width: 480px;
+    height: 167px;
+    margin: 0;
+}
+
+main{
+    width: 508px;
+    margin: 0 45px;
+}
+
+.title-container{
+    padding: 46px;
+    text-shadow: 0px 0px 1px black;
+}
+
+.title{
+    margin-bottom: 10px;
+    font-size: 39px;
+    line-height: 24px;
+}
+
+p{
+    margin-top: 0;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+    margin-top: 20px;
+}
+
+/* Menu styling */
+.menu-img p{
+    font-size: 80px;
+    margin-top: 20px;
+}
+
+.menu-main{
+    display: flex;
+    gap: 20px;
+    margin: auto 0;
+}
+
+.menu-description h3 {
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+.menu-description p {
+    font-size: 16px;
+}
+
+.menu-description h4 {
+    font-size: 20px;
+}
+/* end */
+
+/* buttons styling */
+.add-btn{
+    background: #FFFFFF;
+    border: 1px solid lightgrey;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin: auto 0;
+}
+
+.remove-btn{
+    border: none;
+    width: 60px;
+    color: #BBBBBB;
+    height: 22px;
+    margin: auto 0;
+    cursor: pointer;
+    font-size: 12px;
+    background: none;
+}
+
+.complete-order-btn{
+    color: white;
+    width: 508px;
+    padding: 18px 175px 18px 194px;
+    align-items: center;
+    background: #16DB99;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    margin-top: 40px;
+}
+
+.pay-btn{
+    height: 71px;
+    border-radius: 4px;
+    background: #16DB99;
+    color: #FFFFFF;
+    border: none;
+}
+
+button{
+    cursor: pointer;
+}
+/* end */
+
+.checkout-title{
+    text-align: center;
+}
+
+.order-container{
+    border-bottom: 1px solid #000000;
+}
+
+.order-line-container, .order-details, .total-price-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-details{
+    gap: 5px;
+}
+
+.checkout-container{
+    display: none;
+    padding-bottom: 50px;
+}
+
+.order-confirmation-msg{
+    display: none;
+    background: #ECFDF5;
+    padding: 51px 60px;
+    margin-top: 45px;
+    color: #065F46;
+    font-size: 30px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 542px;
+    width: 524px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 60px 10px #666;
+    background-color: #FFFFFF;
+    color: #757575;;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: 700;
+}
+
+.checkout-header{
+    margin: 46px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 0 24px;
+} 
+
+input{
+    border: 1px solid #757575;
+    padding: 15px 25px;
+    border-radius: 5px;
+    width: 476px;
+    height: 71px;
+    box-sizing: border-box;
+}
