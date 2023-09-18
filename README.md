@@ -1,21 +1,17 @@
-# co8ae4c15ace14e99ec1f3d26
+# Food Ordering App
 
-Quick start:
+This project was built using Vanilla Javascript, HTML, and CSS
 
 ```
 $ npm install
 $ npm start
 ````
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+## About Food Ordering App
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+The app showcases the food items with their prices available to a restaurant for order to the users. The user can add the items they want to their checklist and can remove any item from the list before completion of order. The checklist automatically adds and shows the total of the items added to the checklist. On completion of order, a modal is displayed on the screen for input of payment details for the order placed.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+The app is built to be responsive to different screen sizes.
 
-Happy Coding!
+## Author
+### Abraham Onyeka Kanime
