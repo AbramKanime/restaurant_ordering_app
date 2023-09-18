@@ -12,6 +12,7 @@ document.addEventListener('click', function(e){
     if(e.target.dataset.add){
         renderOrderHtml(e.target.dataset.add)
         document.getElementById('checkout-container').style.display = "inline"
+        document.getElementById('order-confirmation-msg').style.display= "none"
     } else if(e.target.dataset.remove){
         removeOrder(e.target.dataset.remove)
         if (completedOrderArray.length < 1){
