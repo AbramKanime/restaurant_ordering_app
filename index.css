@@ -1,7 +1,7 @@
 body {
     margin: 0;
     position: relative;
-    width: 350px;
+    min-width: 350px;
     background: #FFFFFF;
     font-family: 'Smythe', cursive;
     color: #000000;
