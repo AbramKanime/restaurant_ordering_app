@@ -6,7 +6,6 @@ body {
     font-family: 'Smythe', cursive;
     color: #000000;
     user-select: none;
-    border: 1px solid red
 }
 
 header{
@@ -18,9 +17,7 @@ header{
 }
 
 main{
-    /* width: 480px; */
-    /* margin: 0 45px; */
-    padding: 30px;
+    padding: 45px;
 }
 
 .title-container{
