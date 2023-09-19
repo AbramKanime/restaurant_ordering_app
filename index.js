@@ -8,7 +8,7 @@ const paymentForm = document.getElementById('payment-form')
 let totalOrder = 0
 let completedOrderArray = []
 
-document.addEventListener('click', function(e){
+document.addEventListener('click', e => {
     if(e.target.dataset.add){
         renderOrderHtml(e.target.dataset.add)
         document.getElementById('checkout-container').style.display = "inline"
@@ -22,11 +22,11 @@ document.addEventListener('click', function(e){
     }
 })
 
-completeOrderBtn.addEventListener('click', function(){
+completeOrderBtn.addEventListener('click', () => {
     document.getElementById('modal').style.display = "inline"
 })
 
-paymentForm.addEventListener('submit', function(e){
+paymentForm.addEventListener('submit', e => {
     e.preventDefault()
     document.getElementById('modal').style.display = "none"
     document.getElementById('checkout-container').style.display = "none"
@@ -49,7 +49,7 @@ paymentForm.addEventListener('submit', function(e){
 function getHtml(){
     let feedHtml = ''
     
-    menuArray.forEach(function(menu){
+    menuArray.forEach(menu => {
         feedHtml += `
                 <div id="menu-container" class="menu-container">
                     <div class="menu-main">
