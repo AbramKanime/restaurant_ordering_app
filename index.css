@@ -18,6 +18,8 @@ header{
 
 main{
     padding: 45px;
+    max-width: 750px;
+    margin: 0  auto;
 }
 
 .title-container{
