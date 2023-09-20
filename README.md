@@ -13,5 +13,7 @@ The app showcases the food items with their prices available to a restaurant for
 
 The app is built to be responsive to different screen sizes.
 
+#### Link to the deployed active site of the project: https://food-ordering-app-9f83bb.netlify.app/
+
 ## Author
 ### Abraham Onyeka Kanime
